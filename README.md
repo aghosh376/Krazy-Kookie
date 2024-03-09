@@ -1,3 +1,3 @@
 # Krazy-Kookie
 
-HackMerced IX project 
+HackMerced IX Project 
