@@ -1,4 +1,5 @@
 #Backend
+#cd to the Krazy-Kookie directory and run "python flask_app/app.py"
 from flask import Flask, render_template
 app = Flask(__name__)
 
