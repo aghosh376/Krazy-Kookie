@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Flask Tutorial</title>
-</head>
-<body>
-<h1>This is the Index page</h1>
-</body>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <head>
+        <title>Flask Tutorial</title>
+    </head>
+    <body>
+        <h1>This is the Index page</h1>
+        {% for p in places %}
+        <h2> {{ places[p]["name"] }} </h2>
+        <h3> {{ places[p]["address"] }} </h3>
+        {% endfor %}
+    </body>
 </html>  
