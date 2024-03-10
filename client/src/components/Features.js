@@ -16,16 +16,16 @@ const Features = () => {
         <h2>Features</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           <button className="feature-item" onClick={() => handleFeatureClick('Feature 1')}>
-            <h3>Feature 1</h3>
-            <p>Yapping can be described as a certain process of divulging information .</p>
+            <h3>Connect Fitbit</h3>
+            <p>Connect FitBit to analyze current quality of health.</p>
           </button>
           <button className="feature-item" onClick={() => handleFeatureClick('Feature 2')}>
-            <h3>Feature 2</h3>
-            <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h3>Generate Advice</h3>
+            <p>Advised inmprovements based on stats to better health</p>
           </button>
           <button className="feature-item" onClick={() => handleFeatureClick('Feature 3')}>
-            <h3>Feature 3</h3>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <h3>Review</h3>
+            <p>Overview of current health statistics as they stand against world statistics.</p>
           </button>
         </div>
       </div>
