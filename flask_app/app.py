@@ -1,5 +1,5 @@
 #Backend
-#cd to the Krazy-Kookie directory and run "python flask_app/app.py"
+#cd to the Krazy-Kookie directory and run "python flask_app/app.py" 
 from flask import Flask, render_template
 from firebase import firebase
 
